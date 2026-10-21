@@ -1,0 +1,19 @@
+{
+  "model": "mfnet",
+  "ablation": null,
+  "weights": "/home/wjc/Pro/MFNet-pytorch-master/weights/MFNet/final.pth",
+  "device": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "torch_version": "2.11.0+cu128",
+  "input_shape": [
+    1,
+    4,
+    480,
+    640
+  ],
+  "warmup_iterations": 50,
+  "timed_iterations": 300,
+  "parameters": 736275,
+  "elapsed_seconds": 0.8403606230858713,
+  "milliseconds_per_image": 2.8012020769529045,
+  "fps": 356.9895967975939
+}

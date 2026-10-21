@@ -1,0 +1,22 @@
+{
+  "model": "liteot",
+  "ablation": "backbone",
+  "data_dir": "data/MF",
+  "output_dir": "weights/LiteOTFuse/backbone_control",
+  "epochs": 15,
+  "batch_size": 6,
+  "num_workers": 6,
+  "learning_rate": 0.001,
+  "lr_decay": 0.94,
+  "weight_decay": 0.0005,
+  "seed": 1337,
+  "device": "cuda:0",
+  "init_mfnet": "weights/MFNet/final.pth",
+  "resume": null,
+  "window_size": 4,
+  "sinkhorn_iterations": 3,
+  "ot_embedding_dim": 32,
+  "spatial_weight": 0.2,
+  "max_train_batches": null,
+  "max_val_batches": null
+}

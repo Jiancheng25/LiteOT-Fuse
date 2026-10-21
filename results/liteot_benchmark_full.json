@@ -1,0 +1,19 @@
+{
+  "model": "liteot",
+  "ablation": "full",
+  "weights": "/home/wjc/Pro/MFNet-pytorch-master/weights/LiteOTFuse/full/best.pth",
+  "device": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "torch_version": "2.11.0+cu128",
+  "input_shape": [
+    1,
+    4,
+    480,
+    640
+  ],
+  "warmup_iterations": 50,
+  "timed_iterations": 300,
+  "parameters": 744942,
+  "elapsed_seconds": 1.1486041819443926,
+  "milliseconds_per_image": 3.828680606481309,
+  "fps": 261.1865816927035
+}

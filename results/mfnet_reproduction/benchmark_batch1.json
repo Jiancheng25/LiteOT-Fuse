@@ -1,0 +1,10 @@
+{
+  "device": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "torch_version": "2.11.0+cu128",
+  "input_shape": [1, 4, 480, 640],
+  "warmup_iterations": 50,
+  "timed_iterations": 300,
+  "elapsed_seconds": 0.7406341750174761,
+  "milliseconds_per_image": 2.4687805833915872,
+  "fps": 405.05827319259356
+}

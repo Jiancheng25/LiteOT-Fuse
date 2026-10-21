@@ -1,0 +1,13 @@
+name: SLOT
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pillow
+  - tqdm
+  - matplotlib
+  - pip
+  - pip:
+      # Install the CUDA build appropriate for the host from pytorch.org.
+      - torch

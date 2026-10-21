@@ -1,0 +1,15 @@
+evaluated 8/393evaluated 16/393evaluated 24/393evaluated 32/393evaluated 40/393evaluated 48/393evaluated 56/393evaluated 64/393evaluated 72/393evaluated 80/393evaluated 88/393evaluated 96/393evaluated 104/393evaluated 112/393evaluated 120/393evaluated 128/393evaluated 136/393evaluated 144/393evaluated 152/393evaluated 160/393evaluated 168/393evaluated 176/393evaluated 184/393evaluated 192/393evaluated 200/393evaluated 208/393evaluated 216/393evaluated 224/393evaluated 232/393evaluated 240/393evaluated 248/393evaluated 256/393evaluated 264/393evaluated 272/393evaluated 280/393evaluated 288/393evaluated 296/393evaluated 304/393evaluated 312/393evaluated 320/393evaluated 328/393evaluated 336/393evaluated 344/393evaluated 352/393evaluated 360/393evaluated 368/393evaluated 376/393evaluated 384/393evaluated 392/393evaluated 393/393
+{
+  "both": {
+    "class_average": 0.635529591067424,
+    "mean_iou": 0.6491494954409547
+  },
+  "day": {
+    "class_average": 0.49013242369030746,
+    "mean_iou": 0.6107555325701439
+  },
+  "night": {
+    "class_average": 0.6583371355754631,
+    "mean_iou": 0.6189473006608573
+  }
+}
